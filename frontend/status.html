@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your Status</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Check Your Status</h1>
+        </header>
+
+        <form id="login-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <div id="match-result" style="display:none;">
+            <h2>Matching Donors:</h2>
+            <div id="match-details"></div>
+        </div>
+    </div>
+
+    <script src="check-status.js"></script>
+</body>
+</html>

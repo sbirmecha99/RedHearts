@@ -1,0 +1,150 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #e0455f, #fff);
+    color: #333;
+    
+}
+
+/* Navigation Bar Styles */
+.nav {
+    width: 100%; /* Make the navbar span the full width */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #e0455f;
+    background-image: linear-gradient(147deg, #e0455f 0%, #44000b 74%);
+    
+}
+
+.nav img {
+    height: 80px;
+    width: 80px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav a:hover {
+    color: rgb(1, 61, 182);
+}
+
+.register-donor {
+    background-color: #610a19;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.register-donor:hover {
+    background-color: #7c0a1f;
+}
+
+.register-donor {
+    background-color: #610a19;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #e0455f;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+/* Form Sections */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #e0455f;
+    margin-bottom: 20px;
+}
+
+/* Personal Information Form */
+.personal-info form,
+.health-info form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #e0455f;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #610a19;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Divider Line */
+.divider {
+    border: 0;
+    border-top: 2px solid #e0455f;
+    margin: 40px 0;
+}
